@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Design System</title>
+		<link
+			rel="stylesheet"
+			href="./src/css/main.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="./src/css/utils.css"
+		/>
+	</head>
+	<body>
+		<h1>Design System</h1>
+		<h2>Colors</h2>
+		<ol>
+			<li>Select a base color (body bg)</li>
+			<form
+				action="/"
+				class="p_1 b_1_grey"
+			>
+				<!-- <fieldset> -->
+				<!-- <legend>Legend</legend> -->
+				<div class="form_input_color">
+					<label for="input_color_id">Select a base color</label>
+					<input
+						type="color"
+						name="color"
+						id="input_color_id"
+					/>
+				</div>
+				<div
+					class="form_input_color_res b_1_grey"
+					id="form_input_color_res_id"
+				></div>
+				<!-- </fieldset> -->
+			</form>
+			<li>Calculate Tints, Shades and Tones based on previous step</li>
+			<table
+				class="tints_shades_tones_table"
+				id="tints_shades_tones_table_id"
+			>
+				<tr id="tr_tints">
+					<th>Tints</th>
+					<!-- <td>...</td> -->
+				</tr>
+				<tr id="tr_shades">
+					<th>Shades</th>
+					<!-- <td>...</td> -->
+				</tr>
+				<tr id="tr_tones">
+					<th>Tones</th>
+					<!-- <td>...</td> -->
+				</tr>
+			</table>
+			<li>
+				Calculate other colors for:
+				<ol>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ol>
+			</li>
+			<li></li>
+		</ol>
+	</body>
+	<script
+		type="module"
+		src="./src/js/app.js"
+	></script>
+</html>
